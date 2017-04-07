@@ -1,0 +1,35 @@
+<template lang="pug">
+.container
+  image.bannar-image(src='http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/7d42775b8f0d0c86589082dc9ee179c2.png')
+  text.message {{ message }}
+  text.quotes {{ quotes }}
+</template>
+<style lang="stylus">
+.container
+  display flex
+  flex-direction column
+  align-items center
+
+.bannar-image
+  width 200
+  height 200
+
+.message
+  margin-top 10
+  color #0055dd
+  font-size 28 
+
+.quotes
+  font-size 16
+  color #666
+</style>
+<script>
+export default {
+  data() {
+    return {
+      message: 'Welcome to Use Weexpack!',
+      quotes: 'A Tool To Build WEEX Faster!',
+    }
+  }
+}
+</script>
