@@ -9,7 +9,7 @@ Weex template for [vue-cli](https://github.com/vuejs/vue-cli).
 npm install -g vue-cli
 
 # Start a Weex Project.
-vue init u3u/weex-template <project-name>
+vue init u3u/weex-template#vue-cli <project-name>
 ```
 
 ## 修改说明
